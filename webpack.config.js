@@ -8,7 +8,7 @@ module.exports = {
     },
     output: {
       filename: 'pez.js',
-      path: path.resolve(__dirname, 'dist')
+      path: path.resolve(__dirname)
     },
     plugins: [
         new HtmlWebpackPlugin({
