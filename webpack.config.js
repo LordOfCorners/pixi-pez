@@ -7,7 +7,7 @@ module.exports = {
       main: './src/index.js'
     },
     output: {
-      filename: 'bundle.js',
+      filename: 'pez.js',
       path: path.resolve(__dirname, 'dist')
     },
     plugins: [
