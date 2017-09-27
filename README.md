@@ -14,6 +14,7 @@ PEZ Dispenser built in Pixi.js
     ```
 - Click on the PEZ dispenser to alternate between two animations
 - [Demo link](http://michaelkahane.com/pixi-pez)
+- Developed with Chrome Version 61.0.3163.100 on MacOS 10.12.6
 - Object images and process shots are located in the process folder
 
 # Process/Idea
