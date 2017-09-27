@@ -1,8 +1,10 @@
+/*
+* Configuration options
+*/
+
 export default {
-  width: 800,
-  height: 600,
-  rendererOptions: {
-    //pixi rendererOptions
-    backgroundColor : 0x737373
-  }
+    width: 800,
+    height: 600,
+    mouthRotationSpeed: 0.015,
+    refillSpeed: 5
 };

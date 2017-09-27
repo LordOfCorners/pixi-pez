@@ -4,15 +4,15 @@ const path = require('path');
 
 module.exports = {
     entry: {
-      main: './src/index.js'
+        main: './src/index.js'
     },
     output: {
-      filename: 'pez.js',
-      path: path.resolve(__dirname)
+        filename: 'pez.js',
+        path: path.resolve(__dirname, 'dist')
     },
     plugins: [
         new HtmlWebpackPlugin({
-             title: 'PEZ Dispenser',
+            title: 'PEZ Dispenser',
         })
     ],
     module: {
@@ -32,7 +32,7 @@ module.exports = {
         }]
     },
     devServer: {
-      contentBase: path.join(__dirname, "static"),
-      compress: true
+        contentBase: path.join(__dirname, "static"),
+        compress: true
     }
 }
