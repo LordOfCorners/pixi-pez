@@ -14,6 +14,8 @@ PEZ Dispenser built in Pixi.js
     ```
 - Click on the PEZ dispenser to alternate between two animations
 - [Demo link](http://michaelkahane.com/pixi-pez)
+- Object images and process shots are located in the process folder
+
 # Process/Idea
 I wanted to choose an object that I could turn into something playful. While browsing the halloween section at Target, I came across halloween themed PEZ Dispensers. I decided to play with what the PEZ acronym stands for to allow the character to dispense something other than candy pellets.
 
