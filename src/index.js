@@ -23,13 +23,13 @@ window.addEventListener('resize',  function() {
 });
 
 // Add background image to scene
-var background = PIXI.Sprite.fromImage('background.png')
+let background = PIXI.Sprite.fromImage('background.png');
 scene.addChild(background);
 
 // Create dispenser object, scale + position it, add to scene, make clickable
 let dispenser = new Dispenser();
 dispenser.scale.set(0.70);
-dispenser.position.set(config.width * 0.75, config.width * 0.30)
+dispenser.position.set(config.width * 0.75, config.width * 0.30);
 scene.addChild(dispenser);
 dispenser.interactive = true;
 dispenser.buttonMode = true;
